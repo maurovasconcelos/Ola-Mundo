@@ -24,6 +24,7 @@ def contador(i, f, p):# função contador vai receber 3 valores
         print('FIM!')
 
 #programa principal
+#Insere valor
 contador(1, 10, 1)
 contador(10, 0, 2)
 print('-=' * 20)
