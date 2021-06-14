@@ -3,10 +3,14 @@ def leiaint(msg):
     valor = 0
     while True:
         n = str(input(msg))
-        ok = True
-    else:
-        print('Erro! digite um valor inteiro.')
-
+        if n.isnumeric():
+            valor = int(n)
+            ok = True
+        else:
+            print('ERRO! Digite um número inteiro válido.')
+        if ok:
+            break
+        return valor
 
 n = leiaint('Digite um número: ')
 print(f'Você acabou de digitar o número {n}')
