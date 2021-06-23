@@ -1,2 +1,2 @@
-for c in range(0,5):
-    print(c)
+num = [8, 2, 4, 2, 5, 2]
+print(num.count(2))
