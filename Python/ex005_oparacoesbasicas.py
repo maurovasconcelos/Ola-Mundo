@@ -1,5 +1,5 @@
-n1 = int(input('Um valor '))
-n2 = int(input('outro valor '))
+n1 = int(input('Um valor: '))
+n2 = int(input('outro valor: '))
 s = n1 + n2
 m = n1 * n2
 d = n1 / n2
