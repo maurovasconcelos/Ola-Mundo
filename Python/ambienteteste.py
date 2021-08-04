@@ -23,3 +23,22 @@ print(f'Os resultados são {f1}, {f2} e {f3}')
 num = [6, 2, 1, 4, 3]
 num.sort()
 
+#----------------------------------------------------------------------------------------------------------
+N = int(input('Quantos alunos? '))
+
+students = {}
+
+for i in range(1, N+1):
+  name = input(f'Nome do aluno {i}: ')
+  grades = []
+
+  for j in range(1, 5):
+    grade = float(input(f'Nota {j} do aluno {name}: '))
+    grades.append(grade)
+
+  students[name] = grades
+
+for name, grades in students.items():
+  average = sum(grades) / len(grades)
+  result = 'aprovado' if average >= 7.0 else 'reprovado'
+  print(f'O aluno {name} foi {result} com média {average:.1f}')

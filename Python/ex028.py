@@ -1,5 +1,5 @@
 from random import randint
-pcnum =randint(0,5) #Faz o computador "pensar"
+pcnum = randint(0,5) #Faz o computador "pensar"
 print('-=-' * 10)
 print ('Vou pensar em um numero entre 0 e 5. Tente adivinhar...')
 print('-=-' * 10)

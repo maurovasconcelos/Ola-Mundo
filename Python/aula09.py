@@ -1,3 +1,3 @@
 frase = 'Curso em video Python'
 dividido = frase.split()
-print (dividido[0])
+print(dividido[1])

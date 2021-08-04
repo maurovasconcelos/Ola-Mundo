@@ -28,6 +28,7 @@ for c in range(0,7): #  "repita" x vezes
     dado.clear() # os dados são excluidos mais fica suave que a copia ta salva na lista galera3
 print(galera3)
 
+
 for pessoas in galera3: # pra cada pessoa ne galera 3 faça:
     if pessoas[1] >= 21:  #se a idade for >= 21:
         print(f'{pessoas[0]} é maior de idade.')

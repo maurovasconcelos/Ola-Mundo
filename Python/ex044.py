@@ -15,9 +15,10 @@ elif opcao == 3:
     parcela = total / 2
     print('Sua compra será parcelada em 2x de R${:.2f}'.format(parcela))
 elif opcao == 4:
+    vezes = int(input('Vai dividir de quantas vezes? :'))
     total = preco + (preco * 20 / 100)
     parcela = total / vezes
-    vezes = int(input('Vai dividir de quantas vezes? :')
-    print('Sua compra será parcelada de {}x de R${:.2f}'.format(vezes, parcela))
-print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(preco, total))
+    print(f'Sua compra será parcelada de {vezes} ')
+
+print(f'Sua compra de R${preco:.2f} vai custar R${total:.2f} no final.')
 

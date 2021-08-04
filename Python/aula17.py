@@ -1,7 +1,7 @@
 num = [2,5,9,1]
 num[2] = 3 # nas listas da pra substituir indices
 num.append(7) # append =  comando inserir novo numero/flinstons na lista
-num.sort(reverse=True) # sort = organizar ordem crescente, reverve adivinha o que faz...
+num.sort(reverse=True) # sort = organizar ordem crescente, reverse adivinha o que faz...
 num. insert(2, 0) # inserir na posição 2 o numero 0
 num.pop(2) # comando .pop pra remover um indice, se o () tiver vazio, remove o ultimo indice, se nao, EX: (2) remore quem tiver na posição 2 da lista
 print(num)

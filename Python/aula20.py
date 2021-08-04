@@ -13,7 +13,7 @@ def soma(* valores): #a função soma vai receber altos valores
     s = 0 #soma =0
     for num in valores: # pra cada numero em valores faça:
         s += num #soma recebe ela + o numero
-    print('Somando os valores {} temos {}'.format(valores, s))
+    print(f'Somando os valores {valores} temos {s}')
 
 
 soma(5, 2)

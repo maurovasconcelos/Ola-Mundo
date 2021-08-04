@@ -9,6 +9,8 @@ if opcao == 1:
 elif opcao == 2:
     print('{} Convertido para OCTAL é igual a {}'.format(num, oct(num)[2:]))
 elif opcao == 3:
-    print('{} Convertido para {} é igual a {}'.format(num, hex(num)[2:]))
+    print(f'{num} Convertido para HEXADECIMAL é igual a {hex(num)}')
 else:
     print('Opção invalida, tente novamente ')
+
+#revisado
