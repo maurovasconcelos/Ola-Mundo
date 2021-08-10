@@ -7,7 +7,7 @@ palpites = 0
 while not acertou:
     jogador = int(input('Qual é seu palpite? '))
     palpites += 1
-    if jogador == computador:
+    if jogador == computador:     #se o palpite do jogador for igual do pc = True
         acertou = True
     else:
         if jogador < computador:

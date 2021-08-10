@@ -5,7 +5,7 @@ valor = int(input('Que valor você quer sacar? RS'))
 total = valor
 ced = 50
 totced = 0
-while True:
+while True:     #vai tirando de 50 em 50R$ e colocando em totced
     if total >= ced:
         total -= ced
         totced += 1
